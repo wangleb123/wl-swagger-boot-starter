@@ -1,0 +1,57 @@
+{
+  "groups": [
+    {
+      "name": "swagger",
+      "type": "com.lexiang.swagger.properties.SwaggerProperties",
+      "sourceType": "com.lexiang.swagger.properties.SwaggerProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "swagger.api-des",
+      "type": "java.lang.String",
+      "description": "文档扩展资料.",
+      "sourceType": "com.lexiang.swagger.properties.SwaggerProperties"
+    },
+    {
+      "name": "swagger.api-tittle",
+      "type": "java.lang.String",
+      "description": "swagger文档标题.",
+      "sourceType": "com.lexiang.swagger.properties.SwaggerProperties"
+    },
+    {
+      "name": "swagger.packages",
+      "type": "java.lang.String",
+      "description": "swagger扫描包（controller完整包路径）.",
+      "sourceType": "com.lexiang.swagger.properties.SwaggerProperties"
+    },
+    {
+      "name": "swagger.service-url",
+      "type": "java.lang.String",
+      "description": "swagger文档扩展地址.",
+      "sourceType": "com.lexiang.swagger.properties.SwaggerProperties"
+    },
+    {
+      "name": "swagger.type",
+      "type": "java.lang.String",
+      "description": "swagger类型(zuul 网关类型 service 服务类型).",
+      "defaultValue": "service",
+      "sourceType": "com.lexiang.swagger.properties.SwaggerProperties"
+    },
+    {
+      "name": "swagger.version",
+      "type": "java.lang.String",
+      "description": "文档版本.",
+      "defaultValue": "1.0.0",
+      "sourceType": "com.lexiang.swagger.properties.SwaggerProperties"
+    },
+    {
+      "name": "swagger.writer-name",
+      "type": "java.lang.String",
+      "description": "文档提供者.",
+      "defaultValue": "王乐",
+      "sourceType": "com.lexiang.swagger.properties.SwaggerProperties"
+    }
+  ],
+  "hints": []
+}
